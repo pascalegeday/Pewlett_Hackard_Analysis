@@ -1,2 +1,2 @@
 # Pewlett_Hackard_Analysis
-Analysis of Current Employees for Company  - SQL
+Analysis of Current Employees for Large Company  - SQL
