@@ -42,7 +42,7 @@ CREATE TABLE salaries (
 	to_date DATE NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	FOREIGN KEY (dept_no) REFERENCES departments (dept_no), 
-	PRIMARY KEY (emp_no)
+	PRIMARY KEY (emp_no, dept_no, to_date)
  );
 
 CREATE TABlE titles (
@@ -51,11 +51,13 @@ CREATE TABlE titles (
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-	PRIMARY KEY (emp_no)
+	PRIMARY KEY (emp_no, title, to_date)
 );
 
 SELECT
 	*
 FROM
 	departments;
-	
+
+-- DROP TABLE dept_emp CASCADE;
+-- DROP TABLE titles CASCADE;
