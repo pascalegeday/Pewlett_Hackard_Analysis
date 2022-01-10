@@ -25,7 +25,7 @@ Through our analysis we created four tables to assist in determining the number 
 * The Engineering roles are the roles with the most retirees at every level, meaning that it is vital for these roles to commence their employment process. Thankfully, due to this large wave of retirees there is higher probability that there will be more retirees eligible for the mentorship program. Hopefully, this will prove beneficial for the Engineering roles in the long run, as engineers become increasingly knowledgable with advancements in technology, a new wave of employees and retirees ready to mentor them, may help Pewlett Hackard strengthen these roles. Similarly for the Staffing roles. 
 * The Technical and Managerial roles have less retirees, which may prove to be good for these positions, however, it decreases probability of having enough qualified, retirement-ready employees to mentor the next generation of Pewlett Hackard employees. 
 * There are two additional queries that I made in order to provide a little more insight into the retirees. 
-* The first query was to provide the exact number of eligible mentors per title/role and what department they belong to. 
+* The first query is to provide the exact number of eligible mentors per title/role. 
   * 306	"Senior Engineer"
   * 377	"Engineer"
   * 65	"Assistant Engineer"
@@ -33,4 +33,5 @@ Through our analysis we created four tables to assist in determining the number 
   * 296	"Staff"
   * 77	"Technique Leader"
   * Important to note that there are no eligible mentors for the "Manager" role. 
-* The second query was to provide what departments these roles/titles and employees fell under. 
+* The second query is to provide what departments these roles/titles and employees fall under. 
+* 
