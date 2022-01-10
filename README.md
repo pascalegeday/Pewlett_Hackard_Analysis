@@ -3,7 +3,7 @@ The company, Pewlett Hackard, has requested that we run an analysis on the numbe
 
 # Resources
 * Data source: CSV files provided by Pewlett Hackard
-* Software: PostgreSQl, pgAdmin
+* Software: PostgreSQL, pgAdmin
 
 # Results
 Through our analysis we created four tables to assist in determining the number of retirees and those eligible for the mentorship program.
